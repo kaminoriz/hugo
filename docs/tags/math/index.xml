@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on Time is life.</title>
+    <link>https://timeislife.io/tags/math/</link>
+    <description>Recent content in Math on Time is life.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Copyright @aiyk2178</copyright>
+    <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timeislife.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>オッズ比とリスク比</title>
+      <link>https://timeislife.io/posts/tech/odds-risk/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.io/posts/tech/odds-risk/</guid>
+      <description>
+        
+          &lt;h1 id=&#34;オッズ比とリスク比について理解する&#34;&gt;オッズ比とリスク比について理解する&lt;/h1&gt;
+&lt;h2 id=&#34;リスク比とは&#34;&gt;リスク比とは&lt;/h2&gt;
+&lt;p&gt;まずは理解が容易なリスク比からはじめます。
+なお、以下の数字は完全に仮想的なものです。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;コロナ罹患&lt;/th&gt;
+&lt;th&gt;コロナ未罹患&lt;/th&gt;
+&lt;th&gt;合計&lt;/th&gt;
+&lt;th&gt;罹患率&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;マスク未着用&lt;/td&gt;
+&lt;td&gt;90&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;td&gt;Pa = 90%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;マスク着用&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;160&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;Pb = 20%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;ここで&lt;strong&gt;リスク&lt;/strong&gt;は罹患率そのものを意味します。その比率である
+&lt;strong&gt;リスク比&lt;/strong&gt;は割合・〇倍で表現できます。つまり、罹患率の割合になりますので、&lt;/p&gt;
+&lt;p&gt;　$リスク比= \frac{Pa}{Pb} = 4.5$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;マスク未着用の場合、リスク比は4.5倍&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;という表現をします。このように、マスクをしない場合はコロナ罹患リスクが4.5倍ということで、
+リスク比は直感的に分かりやすいものです。&lt;/p&gt;
+&lt;h2 id=&#34;オッズ比とは&#34;&gt;オッズ比とは&lt;/h2&gt;
+&lt;p&gt;まず、オッズを以下のように定義します。&lt;/p&gt;
+&lt;p&gt;$オッズ= \frac{P}{1-P} $&lt;/p&gt;
+&lt;p&gt;この定義をもとに先程のデータでオッズを求めます。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;コロナ罹患&lt;/th&gt;
+&lt;th&gt;コロナ未罹患&lt;/th&gt;
+&lt;th&gt;合計&lt;/th&gt;
+&lt;th&gt;罹患率&lt;/th&gt;
+&lt;th&gt;オッズ&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;マスク未着用&lt;/td&gt;
+&lt;td&gt;90&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;td&gt;Pa = 90%&lt;/td&gt;
+&lt;td&gt;$\frac{0.9}{0.1}=9$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;マスク着用&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;160&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;Pb = 20%&lt;/td&gt;
+&lt;td&gt;$\frac{0.2}{0.8}=0.25$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;オッズ比はこの比率になりますので、&lt;/p&gt;
+&lt;p&gt;$オッズ比= \frac{\frac{Pa}{1-Pa}}{\frac{Pb}{1-Pb}} = \frac{9}{0.25} = 38$&lt;/p&gt;
+&lt;p&gt;オッズ比は38になります。&lt;/p&gt;
+&lt;h2 id=&#34;オッズ比を使う場面&#34;&gt;オッズ比を使う場面&lt;/h2&gt;
+&lt;p&gt;一般的にはリスク比で十分な印象ですが、このオッズ比はどのような場面で使われるのでしょうか。
+以下のようなケースがあります。&lt;/p&gt;
+&lt;h3 id=&#34;1コホート研究前向き研究将来事象分析とケースコントロール研究後ろ向き研究過去実績分析のいずれにも利用できる&#34;&gt;1.コホート研究（前向き研究＝将来事象分析）とケースコントロール研究（後ろ向き研究＝過去実績分析）のいずれにも利用できる&lt;/h3&gt;
+&lt;p&gt;上記の例で言えば、それぞれ以下のようになります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;コホート研究&lt;/strong&gt; マスク未着用者の記録を採取し、一定期間後のコロナ罹患結果を調べる手法&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ケースコントロール研究&lt;/strong&gt;　コロナ罹患者・未罹患者からヒアリングを行いマスク着用習慣をヒアリングする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;コロナ罹患者のデータがケースコントロール研究で倍収集できたとしましょう。
+ここで、マスク未着用・着用の比率は先程のデータと同じです。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;コロナ罹患&lt;/th&gt;
+&lt;th&gt;コロナ未罹患&lt;/th&gt;
+&lt;th&gt;合計&lt;/th&gt;
+&lt;th&gt;罹患率&lt;/th&gt;
+&lt;th&gt;オッズ&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;マスク未着用&lt;/td&gt;
+&lt;td&gt;180&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;190&lt;/td&gt;
+&lt;td&gt;Pa = 95%&lt;/td&gt;
+&lt;td&gt;$\frac{0.95}{0.05}=19$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;マスク着用&lt;/td&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;td&gt;160&lt;/td&gt;
+&lt;td&gt;240&lt;/td&gt;
+&lt;td&gt;Pb = 33%&lt;/td&gt;
+&lt;td&gt;$\frac{0.33}{0.66}=0.5$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このようになります。この場合、&lt;/p&gt;
+&lt;p&gt;$リスク比= \frac{Pa}{Pb} = \frac{0.95}{0.33} = 2.9$&lt;/p&gt;
+&lt;p&gt;$オッズ比= \frac{\frac{Pa}{1-Pa}}{\frac{Pb}{1-Pb}} = \frac{19}{0.5} = 36$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;リスク比は2.9倍になりますが、オッズ比は36のままとなります。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;この定義から分かる通り、
+ケースコントロール研究では、罹患データの収集数でリスク比が変わってしまいます。
+一方、オッズ比については、どちらも変化がありません。&lt;/p&gt;
+&lt;h3 id=&#34;2pが小さい場合はリスク比相当として扱うことができる&#34;&gt;2.pが小さい場合はリスク比相当として扱うことができる&lt;/h3&gt;
+&lt;p&gt;pが小さい場合は$1-p \simeq 1$として、リスク比はオッズ比から推定可能です。&lt;/p&gt;
+&lt;p&gt;$ オッズ比 = \frac{\frac{Pa}{1-Pa}}{\frac{Pb}{1-Pb}} =  \frac{Pa}{Pb} = リスク比$&lt;/p&gt;
+&lt;h3 id=&#34;ロジスティック回帰との関係&#34;&gt;ロジスティック回帰との関係&lt;/h3&gt;
+&lt;p&gt;オッズは確率Pをシグモイド関数で表現した場合、以下のように表現できます。&lt;/p&gt;
+&lt;p&gt;$ オッズ= \frac{P}{1-P} = \frac{\frac{1}{1+exp(-\bf{w}^T\bf{x}+b)}}{1-\frac{1}{1+exp(-\bf{w}^T\bf{x}+b)}}
+= e^{-\bf{w}^T\bf{x}+b} $&lt;/p&gt;
+&lt;p&gt;$\bf{x}$:説明変数のベクトル&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;参考動画&#34;&gt;参考動画&lt;/h2&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_DdE97C7Hq0?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>情報理論</title>
+      <link>https://timeislife.io/posts/tech/entropy/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.io/posts/tech/entropy/</guid>
+      <description>
+        
+          &lt;p&gt;情報理論の基本を理解する。&lt;/p&gt;
+&lt;h1 id=&#34;情報量&#34;&gt;情報量&lt;/h1&gt;
+&lt;p&gt;事象Aが発生する確率をP(A)とした時、情報量I(A)は以下で定義される。&lt;/p&gt;
+&lt;p&gt;$ I(A) = -\log P(A)$&lt;/p&gt;
+&lt;p&gt;確率が小さいほど情報量は大きい。
+レアな事象ほどインパクト（情報）が大きいとイメージすると覚えやすい。&lt;/p&gt;
+&lt;p&gt;確率P(A)に対しては以下の特徴を持つ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;確率が小さい時、大きくなる&lt;/li&gt;
+&lt;li&gt;複数の独立な事象において、情報量はその和で表現される（確率は積で表現される）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$ I(A \cap B) = I(A) + I(B)$&lt;/p&gt;
+&lt;h1 id=&#34;エントロピー&#34;&gt;エントロピー&lt;/h1&gt;
+&lt;p&gt;情報量の期待値で定義される。&lt;/p&gt;
+&lt;p&gt;$ H(A) = -P(A)\log P(A)$&lt;/p&gt;
+&lt;h1 id=&#34;交差エントロピー&#34;&gt;交差エントロピー&lt;/h1&gt;
+&lt;p&gt;確率分布$p(x)$と$q(x)$の交差エントロピーは以下で定義される。&lt;/p&gt;
+&lt;p&gt;$ H(p,q) = -\sum_{x} p(x)\log q(x)$&lt;/p&gt;
+&lt;h1 id=&#34;klダイバージェンス---kullback-leibler-divergence&#34;&gt;KLダイバージェンス - Kullback-Leibler divergence&lt;/h1&gt;
+&lt;p&gt;確率分布$p(x)$と$q(x)$のKLダイバージェンスは以下で定義される。&lt;/p&gt;
+&lt;p&gt;$ D_{KL}(p||q) = \sum_{x} p(x)\log \frac{p(x)}{q(x)}$&lt;/p&gt;
+&lt;p&gt;確率分布$p(x)$と$q(x)$に対して、非対称であるが、
+2つの確率分布の類似性や距離みたいなイメージに近い。
+$p(x)=q(x)$の場合は$\log$部分が1となるため、
+$D(p||q)$はゼロになる。&lt;/p&gt;
+&lt;h2 id=&#34;エントロピーと交差エントロピーとklダイバージェンスの関係&#34;&gt;エントロピーと交差エントロピーとKLダイバージェンスの関係&lt;/h2&gt;
+&lt;p&gt;この3つの量には以下の関係があります。&lt;/p&gt;
+&lt;p&gt;$ H(p,q) = H(p) + D_{KL}(p||q)$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;参考動画-情報理論&#34;&gt;参考動画 情報理論&lt;/h1&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ErfnhcEV1O8?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>IUT and abc</title>
+      <link>https://timeislife.io/posts/tech/iut-abc/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.io/posts/tech/iut-abc/</guid>
+      <description>
+        
+          &lt;p&gt;一般向けIUT・abc予想について。&lt;/p&gt;
+&lt;h1 id=&#34;iutabc予想&#34;&gt;IUT・abc予想&lt;/h1&gt;
+&lt;p&gt;足し算と掛け算に関わる関係を明らかにする理論と言われます。
+また、強いabc予想のもとでは、フェルマーの最終定理が背理法により簡単に導出されます。&lt;/p&gt;
+&lt;p&gt;ABC予想のよくある間違い
+&lt;a href=&#34;https://tsujimotter.hatenablog.com/entry/misunderstanding-of-abc-conjecture&#34;&gt;https://tsujimotter.hatenablog.com/entry/misunderstanding-of-abc-conjecture&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ブログweb&#34;&gt;ブログ/Web&lt;/h2&gt;
+&lt;h3 id=&#34;新一の心の一票---楽天ブログ&#34;&gt;新一の「心の一票」 - 楽天ブログ&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://plaza.rakuten.co.jp/shinichi0329/&#34;&gt;https://plaza.rakuten.co.jp/shinichi0329/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;宇宙際タイヒュミラ理論への誘いざない&#34;&gt;宇宙際タイヒュミラ−理論への誘（いざな）い&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.kurims.kyoto-u.ac.jp/~motizuki/Uchuusai%20Taihimyuuraa%20riron%20he%20no%20izanai%20(lecture%20note%20ban).pdf&#34;&gt;http://www.kurims.kyoto-u.ac.jp/~motizuki/Uchuusai%20Taihimyuuraa%20riron%20he%20no%20izanai%20(lecture%20note%20ban).pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;参考書籍&#34;&gt;参考書籍&lt;/h2&gt;
+&lt;p&gt;宇宙と宇宙をつなぐ数学　IUT理論の衝撃 (角川学芸出版単行本)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/dp/B07QVHZJL8/ref=cm_sw_em_r_mt_dp_P0WNTWA4ZG3RZJ4SE7JB&#34;&gt;https://www.amazon.co.jp/dp/B07QVHZJL8/ref=cm_sw_em_r_mt_dp_P0WNTWA4ZG3RZJ4SE7JB&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;参考動画-iut&#34;&gt;参考動画 IUT&lt;/h2&gt;
+&lt;h3 id=&#34;abc-conjecture-and-new-mathematics---prof-fumiharu-kato-oct-7-2017-with-english-subtitles&#34;&gt;abc Conjecture and New Mathematics - Prof. Fumiharu Kato, Oct 7, 2017 (with English subtitles)&lt;/h3&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/fNS7N04DLAQ?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;abc予想の主張を理解する&#34;&gt;abc予想の主張を理解する&lt;/h3&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/PIUCfN08p8M?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Time is life.</title>
+    <link>https://timeislife.io/tags/python/</link>
+    <description>Recent content in Python on Time is life.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Copyright @aiyk2178</copyright>
+    <lastBuildDate>Sun, 19 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timeislife.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pandas Dataredader</title>
+      <link>https://timeislife.io/posts/tech/pandasdatareader/</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.io/posts/tech/pandasdatareader/</guid>
+      <description>
+        
+          &lt;h1 id=&#34;pandas-datareaderとは&#34;&gt;pandas Datareaderとは&lt;/h1&gt;
+&lt;p&gt;オンライン上のデータをダウンロードするライブラリです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pandas-datareader.readthedocs.io/en/latest/index.html&#34;&gt;https://pandas-datareader.readthedocs.io/en/latest/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;データソース一覧はこちらにあります。
+APIキーの取得が必要なものもあります。
+fredやstooqはAPIキー不要でデータが取得できます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pandas-datareader.readthedocs.io/en/latest/remote_data.html&#34;&gt;https://pandas-datareader.readthedocs.io/en/latest/remote_data.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fred-経済データ&#34;&gt;Fred 経済データ&lt;/h2&gt;
+&lt;p&gt;St.Louis連銀が提供するデータソースです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fred.stlouisfed.org/&#34;&gt;https://fred.stlouisfed.org/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fred-nasdaqの時系列グラフ&#34;&gt;Fred NASDAQの時系列グラフ&lt;/h3&gt;
+&lt;p&gt;NASDAQの時系列グラフを作成します。200期間移動平均SMA200も表示してみましょう。
+わずか10行程度で作成できます。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import pandas_datareader.data as pdr
+import datetime as dt
+import matplotlib.pyplot as plt
+
+date_to = dt.date.today()
+ticker_f = &amp;#39;NASDAQ100&amp;#39;
+df = pdr.DataReader(ticker_f, &amp;#39;fred&amp;#39;, &amp;#39;2015-01-01&amp;#39;, date_to).dropna()
+df[&amp;#39;SMA200&amp;#39;] = df.rolling(window = 200).mean()
+df.plot()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;https://timeislife.io/images/fred-nasdaq.png&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;fred-失業率-unemployment-rateのグラフ&#34;&gt;Fred 失業率 Unemployment Rateのグラフ&lt;/h3&gt;
+&lt;p&gt;米国の月次失業率推移のグラフを見てみましょう。
+Covid19/新型コロナウイルスのインパクトの大きさが理解できます。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import pandas_datareader.data as pdr
+import datetime as dt
+import matplotlib.pyplot as plt
+
+date_to = dt.date.today()
+ticker_f = &amp;#39;UNRATE&amp;#39;
+df = pdr.DataReader(ticker_f, &amp;#39;fred&amp;#39;, &amp;#39;2015-01-01&amp;#39;, date_to).dropna()
+df.plot()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;https://timeislife.io/images/unrate.png&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;nasdaq&#34;&gt;NASDAQ&lt;/h2&gt;
+&lt;p&gt;NASDAQの銘柄を簡単に取得できます。ティッカーシンボルの確認が可能です。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;from pandas_datareader.nasdaq_trader import get_nasdaq_symbols
+symbols = get_nasdaq_symbols()
+symbols.info()
+symbols.head()
+symbols[symbols.index==&amp;#39;MSFT&amp;#39;]
+&lt;/code&gt;&lt;/pre&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ta-libのインストール</title>
+      <link>https://timeislife.io/posts/tech/ta-lib/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.io/posts/tech/ta-lib/</guid>
+      <description>
+        
+          &lt;h1 id=&#34;ta-lib&#34;&gt;ta-lib&lt;/h1&gt;
+&lt;p&gt;Ta-Libはテクニカル分析ライブラリです。
+テクニカル教の信者にとってはインストール必須のツールになります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ta-lib.org/&#34;&gt;https://ta-lib.org/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;macososx-ta-libのインストール&#34;&gt;MacOS/OSX ta-libのインストール&lt;/h2&gt;
+&lt;p&gt;OSXにインストールする場合はbrewを使うと簡単です。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew install ta-lib 
+pip3 install TA-Lib
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;azure-ta-libのインストール&#34;&gt;Azure ta-libのインストール&lt;/h2&gt;
+&lt;p&gt;メモリは1G以上で実行しないとエラーになりました。
+ta-libをインストールする際のみ1G以上に変更しましょう。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
+tar -zxvf ta-lib-0.4.0-src.tar.gz
+cd ta-lib
+./configure --prefix=/usr
+make
+sudo make install
+cd ../
+rm -rf ta-lib-0.4.0-src.tar.gz
+rm -rf ta-lib
+pip3 install TA-Lib
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;参考動画&#34;&gt;参考動画&lt;/h2&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/QGkf2-caXmc?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Freqtradeのインストール</title>
+      <link>https://timeislife.io/posts/tech/freqtrade/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.io/posts/tech/freqtrade/</guid>
+      <description>
+        
+          &lt;h1 id=&#34;freqtradeのインストール&#34;&gt;freqtradeのインストール&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/freqtrade/freqtrade.git&#34;&gt;https://github.com/freqtrade/freqtrade.git&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;python-venvのインストール&#34;&gt;python venvのインストール&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get install python3-venv
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;git-clone-にてパッケージを取得&#34;&gt;git clone にてパッケージを取得&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/freqtrade/freqtrade.git
+cd freqtrade
+git checkout develop
+./setup.sh --install
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;ta-libのインストールで時間が掛かりますが、ひたすら待ちます。&lt;/p&gt;
+&lt;p&gt;1CPU/1GB MEMのAzure環境の場合、20分くらいで完了しました。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

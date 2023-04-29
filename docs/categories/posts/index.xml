@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Time is life.</title>
+    <link>https://timeislife.io/categories/posts/</link>
+    <description>Recent content in Posts on Time is life.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Copyright @aiyk2178</copyright>
+    <lastBuildDate>Sat, 11 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timeislife.io/categories/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>高齢の親・シニア・お年寄りにiPhone/iPadを使ってもらう方法</title>
+      <link>https://timeislife.io/posts/iphone4elders/</link>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.io/posts/iphone4elders/</guid>
+      <description>
+        
+          &lt;p&gt;現代では、どの世代にとってもスマホは必須のアイテムです。その中でも、高齢者でスマホをつかってもらうのも大変な世代の方向けに、スマホを使ってもらう手順をまとめました。&lt;/p&gt;
+&lt;p&gt;ターゲットとしては80代以上を想定しています（後期高齢・認知症初期の方を含む）&lt;/p&gt;
+&lt;p&gt;一般のシニアの方やアクティブシニアの方（60〜70代）については、スマホ利用に基本問題はないため、こちらに記載した記事に対するニーズは少しづつ減っていくと思われます。&lt;/p&gt;
+&lt;h2 id=&#34;機種の選定&#34;&gt;機種の選定&lt;/h2&gt;
+&lt;p&gt;iPhone(またはiPad)です。もし自分が数年前のiPhoneを利用しているなら、新機種を購入して、使い慣れた機種を渡してしまいましょう。&lt;/p&gt;
+&lt;p&gt;できれば大画面のiPhoneがいいです。シニア向けiPhoneにはそれほどのスペックは求められません。&lt;/p&gt;
+&lt;h2 id=&#34;回線の準備&#34;&gt;回線の準備&lt;/h2&gt;
+&lt;p&gt;これは子供や後見人が行う必要があります。格安SIMをネットで契約しましょう。名義はあくまで本人で契約しましょう。
+これは個人的な見解ですが、通話はLineで問題ありませんので、
+音声のついたSIMは不要、SMS付きを契約すれば良いと思います。&lt;/p&gt;
+&lt;h2 id=&#34;iphoneのセットアップ&#34;&gt;iPhoneのセットアップ&lt;/h2&gt;
+&lt;p&gt;基本的に全て準備してあげる必要があります。ポイントは以下の通りです。&lt;/p&gt;
+&lt;h3 id=&#34;apple-idの取得&#34;&gt;apple IDの取得&lt;/h3&gt;
+&lt;p&gt;パスワードの設定してます。
+今後ほぼ入力する機会はないため複雑なものでOKです。&lt;/p&gt;
+&lt;h2 id=&#34;端末ロックのpin&#34;&gt;端末ロックのPIN&lt;/h2&gt;
+&lt;p&gt;認知症の方の場合、パスコード入力が障壁になります。
+6桁で覚えやすいものを設定しましょう。
+その方の認知能力を踏まえる必要があります。
+あまり認知能力が高くない場合、
+セキュリティ上、好ましくないのですが、
+123456などにせざるを得ません。&lt;/p&gt;
+&lt;p&gt;TouchID/生体認証は理解が難しく、電源切れ再起動後のパスコード入力が一番の課題となります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;認知能力が衰えた高齢者のiPhone利用は、この6桁を入力方法をマスターしてもらうことから始まります。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;パスコード解除&#34;&gt;パスコード解除&lt;/h3&gt;
+&lt;p&gt;iPadの場合はパスコードを解除しておきます。&lt;/p&gt;
+&lt;p&gt;設定→TouchIDとパスコード-&amp;gt;パスコードをオフにする。&lt;/p&gt;
+&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;https://timeislife.io/images/passcode-off.jpeg&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;画面サイズやフォントの設定&#34;&gt;画面サイズやフォントの設定&lt;/h3&gt;
+&lt;p&gt;アクセシビリティから以下を設定します&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;太文字　オン&lt;/li&gt;
+&lt;li&gt;大きめのテキスト　オン&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;高齢者向けアプリ&#34;&gt;高齢者向けアプリ&lt;/h1&gt;
+&lt;h2 id=&#34;操作習熟編&#34;&gt;操作習熟編&lt;/h2&gt;
+&lt;p&gt;ここまで来たらようやくアプリの導入です。まずは、タッチパネルに慣れてもらう必要があります。高齢者で慣れない方は、はじめタッチパネルをものすごい力で押すため、全くタッチパネルが動作しませんでした。そのため、まずは軽くタッチすることに慣れてもらう必要がありました。以下のアプリはこの軽いタッチ操作になれてもらうために有効でした。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;天気予報&#34;&gt;天気予報&lt;/h2&gt;
+&lt;p&gt;次は天気予報です。
+お年寄りにとって情報取得の最初は天気が一番です。ブランドとしてはNHKがいいでしょう。Yahoo天気などは、Yahoo自体がブランドとして認知されていないため、オススメしません。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>偉人・有名人の言葉</title>
+      <link>https://timeislife.io/posts/words/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.io/posts/words/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;a href=&#34;https://www.brainyquote.com/&#34;&gt;https://www.brainyquote.com/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;残すことの大切さ&#34;&gt;残すことの大切さ&lt;/h2&gt;
+&lt;h3 id=&#34;一生を終えてのちに残るのはわれわれが集めたものではなくてわれわれが与えたものである--続氷点三浦綾子&#34;&gt;一生を終えてのちに残るのは、われわれが集めたものではなくて、われわれが与えたものである。- 続氷点、三浦綾子&lt;/h3&gt;
+&lt;h3 id=&#34;人は塵から生まれてきた生まれてきてから得たものに執着するないずれ人は塵に戻っていくのだから---タルムードの教え&#34;&gt;人は塵から生まれてきた。生まれてきてから得たものに執着するな。いずれ人は塵に戻っていくのだから - タルムードの教え&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;時間の大切さ&#34;&gt;時間の大切さ&lt;/h2&gt;
+&lt;h3 id=&#34;今日が一番若い日---永六輔&#34;&gt;今日が一番若い日 - 永六輔&lt;/h3&gt;
+&lt;h3 id=&#34;today-you-are-the-youngest-in-the-rest-of-your-life&#34;&gt;Today you are the youngest in the rest of your life.&lt;/h3&gt;
+&lt;h3 id=&#34;人生生きて３万日&#34;&gt;人生生きて３万日&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;行動の大切さ&#34;&gt;行動の大切さ&lt;/h2&gt;
+&lt;h3 id=&#34;life-is-like-riding-a-bicycle-to-keep-your-balance-you-must-keep-moving---albert-einstein&#34;&gt;Life is like riding a bicycle. To keep your balance you must keep moving. - Albert Einstein&lt;/h3&gt;
+&lt;h3 id=&#34;done-is-better-than-the-perfect&#34;&gt;Done is better than the perfect&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;多様性の大切さ&#34;&gt;多様性の大切さ&lt;/h2&gt;
+&lt;h3 id=&#34;大人になるということは曖昧さを受け入れる能力を持つということ--フロイト&#34;&gt;大人になるということは曖昧さを受け入れる能力を持つということ , フロイト&lt;/h3&gt;
+&lt;h2 id=&#34;ミニマリスト--minimalism&#34;&gt;ミニマリスト / Minimalism&lt;/h2&gt;
+&lt;h3 id=&#34;minimalism-is-not-a-lack-of-something-its-simply-the-perfect-amount-of-something--nicholas-burroughs&#34;&gt;Minimalism is not a lack of something. It’s simply the perfect amount of something. — Nicholas Burroughs&lt;/h3&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Less is more &lt;=&gt; </title>
+      <link>https://timeislife.io/posts/minimalist/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timeislife.io/posts/minimalist/</guid>
+      <description>
+        
+          &lt;p&gt;ミニマルであること・物が少ないことは時間の有効活用や自由に繋がります。&lt;/p&gt;
+&lt;h1 id=&#34;人生は積み減らし---岡本太郎&#34;&gt;人生は積み減らし - 岡本太郎&lt;/h1&gt;
+&lt;p&gt;人生は積み重ねだと誰でも思っているようだ。
+僕は逆に積み減らすべきだと思う。
+財産も知識も蓄えれば蓄えるほど
+かえって人間は自在さを失ってしまう。- 岡本太郎&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;片付けを理解する動画&#34;&gt;片付けを理解する動画&lt;/h1&gt;
+&lt;h2 id=&#34;ものは少なく幸せはたくさんless-stuff-more-happiness&#34;&gt;ものは少なく、幸せはたくさん　Less Stuff, More Happiness&lt;/h2&gt;
+&lt;p&gt;グラハム・ヒル Less Stuff, more happiness｜ものは少なく、幸せは多めに&lt;/p&gt;
+&lt;p&gt;ものが増えることは、より多くのストレスに繋がります。この逆説として、ものは少なく、より幸福に&lt;/p&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/L8YJtvHGeUU?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;nakata-university-be-happier-with-less-stuff&#34;&gt;Nakata University, Be Happier with Less Stuff&lt;/h2&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/1jTSxlw9ajE?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;organise-the-world---marie-kondo&#34;&gt;Organise the World - Marie Kondo&lt;/h2&gt;
+&lt;p&gt;近藤麻理恵さんによるトーク。&lt;/p&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ft1KKV57yWE?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
