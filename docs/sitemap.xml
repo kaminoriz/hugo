@@ -3,7 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://timeislife.io/categories/</loc>
-    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/tags/japan/</loc>
+    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/posts/</loc>
+    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/tags/</loc>
+    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/posts/wine/</loc>
+    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/</loc>
+    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/tags/wine/</loc>
+    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/categories/wine/</loc>
+    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/posts/wine/japan/</loc>
+    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -18,21 +58,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://timeislife.io/posts/english/</loc>
-    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://timeislife.io/posts/</loc>
-    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://timeislife.io/tags/</loc>
-    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://timeislife.io/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -272,21 +297,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://timeislife.io/posts/wine/</loc>
-    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://timeislife.io/tags/wine/</loc>
-    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://timeislife.io/categories/wine/</loc>
-    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://timeislife.io/posts/wine/france/</loc>
     <lastmod>2021-10-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -322,22 +332,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://timeislife.io/tags/japan/</loc>
-    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://timeislife.io/posts/wine/america/</loc>
     <lastmod>2021-04-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://timeislife.io/posts/wine/italy/</loc>
-    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://timeislife.io/posts/wine/japan/</loc>
     <lastmod>2021-04-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
