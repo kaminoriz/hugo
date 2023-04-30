@@ -2,8 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://timeislife.io/tags/book/</loc>
+    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/categories/books/</loc>
+    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/posts/books/</loc>
+    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://timeislife.io/categories/</loc>
-    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/posts/</loc>
+    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/tags/</loc>
+    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/</loc>
+    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://timeislife.io/posts/books/consul1st/</loc>
+    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -12,22 +47,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://timeislife.io/posts/</loc>
-    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://timeislife.io/tags/</loc>
-    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://timeislife.io/posts/wine/</loc>
-    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://timeislife.io/</loc>
     <lastmod>2023-04-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -132,16 +152,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://timeislife.io/categories/books/</loc>
-    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://timeislife.io/posts/books/</loc>
-    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://timeislife.io/tags/movie/</loc>
     <lastmod>2022-12-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -159,11 +169,6 @@
   </url><url>
     <loc>https://timeislife.io/posts/bigshort/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://timeislife.io/tags/book/</loc>
-    <lastmod>2022-07-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
