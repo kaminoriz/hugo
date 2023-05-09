@@ -147,6 +147,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://timeislife.io/posts/books/essential/</loc>
+    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://timeislife.io/posts/english/english-books/</loc>
     <lastmod>2023-01-03T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -264,11 +269,6 @@
   </url><url>
     <loc>https://timeislife.io/posts/iphone4elders/</loc>
     <lastmod>2022-06-11T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://timeislife.io/posts/books/essential/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
