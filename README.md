@@ -1,1 +1,1 @@
-## timeislife.io by hugo
+## kaminori.io by hugo
