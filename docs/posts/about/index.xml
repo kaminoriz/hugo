@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Time is life.</title>
-    <link>https://timeislife.io/posts/about/</link>
+    <link>https://kaminori.io/posts/about/</link>
     <description>Recent content in About on Time is life.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>Copyright kaminoriz</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://timeislife.io/posts/about/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright @kaminori</copyright>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kaminori.io/posts/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
-      <link>https://timeislife.io/posts/about/about/</link>
+      <link>https://kaminori.io/posts/about/about/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://timeislife.io/posts/about/about/</guid>
+      <guid>https://kaminori.io/posts/about/about/</guid>
       <description>
         
           &lt;h1 id=&#34;about-this-site&#34;&gt;About This Site&lt;/h1&gt;
