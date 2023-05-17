@@ -42,6 +42,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://kaminori.io/posts/books/cheese/</loc>
+    <lastmod>2023-05-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://kaminori.io/posts/books/ikikata/</loc>
     <lastmod>2023-05-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -224,11 +229,6 @@
   </url><url>
     <loc>https://kaminori.io/posts/english/words-biz/</loc>
     <lastmod>2022-07-02T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://kaminori.io/posts/books/cheese/</loc>
-    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
