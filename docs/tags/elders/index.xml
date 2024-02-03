@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elders on kaminori</title>
+    <link>https://kaminori.io/tags/elders/</link>
+    <description>Recent content in Elders on kaminori</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Copyright @kaminori10</copyright>
+    <lastBuildDate>Sat, 11 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kaminori.io/tags/elders/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>高齢の親・シニア・お年寄りにiPhone/iPadを使ってもらう方法</title>
+      <link>https://kaminori.io/posts/iphone4elders/</link>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaminori.io/posts/iphone4elders/</guid>
+      <description>
+        
+          &lt;p&gt;現代では、どの世代にとってもスマホは必須のアイテムです。その中でも、高齢者でスマホをつかってもらうのも大変な世代の方向けに、スマホを使ってもらう手順をまとめました。&lt;/p&gt;
+&lt;p&gt;ターゲットとしては80代以上を想定しています（後期高齢・認知症初期の方を含む）&lt;/p&gt;
+&lt;p&gt;一般のシニアの方やアクティブシニアの方（60〜70代）については、スマホ利用に基本問題はないため、こちらに記載した記事に対するニーズは少しづつ減っていくと思われます。&lt;/p&gt;
+&lt;h2 id=&#34;機種の選定&#34;&gt;機種の選定&lt;/h2&gt;
+&lt;p&gt;iPhone(またはiPad)です。もし自分が数年前のiPhoneを利用しているなら、新機種を購入して、使い慣れた機種を渡してしまいましょう。&lt;/p&gt;
+&lt;p&gt;できれば大画面のiPhoneがいいです。シニア向けiPhoneにはそれほどのスペックは求められません。&lt;/p&gt;
+&lt;h2 id=&#34;回線の準備&#34;&gt;回線の準備&lt;/h2&gt;
+&lt;p&gt;これは子供や後見人が行う必要があります。格安SIMをネットで契約しましょう。名義はあくまで本人で契約しましょう。
+これは個人的な見解ですが、通話はLineで問題ありませんので、
+音声のついたSIMは不要、SMS付きを契約すれば良いと思います。&lt;/p&gt;
+&lt;h2 id=&#34;iphoneのセットアップ&#34;&gt;iPhoneのセットアップ&lt;/h2&gt;
+&lt;p&gt;基本的に全て準備してあげる必要があります。ポイントは以下の通りです。&lt;/p&gt;
+&lt;h3 id=&#34;apple-idの取得&#34;&gt;apple IDの取得&lt;/h3&gt;
+&lt;p&gt;パスワードの設定してます。
+今後ほぼ入力する機会はないため複雑なものでOKです。&lt;/p&gt;
+&lt;h2 id=&#34;端末ロックのpin&#34;&gt;端末ロックのPIN&lt;/h2&gt;
+&lt;p&gt;認知症の方の場合、パスコード入力が障壁になります。
+6桁で覚えやすいものを設定しましょう。
+その方の認知能力を踏まえる必要があります。
+あまり認知能力が高くない場合、
+セキュリティ上、好ましくないのですが、
+123456などにせざるを得ません。&lt;/p&gt;
+&lt;p&gt;TouchID/生体認証は理解が難しく、電源切れ再起動後のパスコード入力が一番の課題となります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;認知能力が衰えた高齢者のiPhone利用は、この6桁を入力方法をマスターしてもらうことから始まります。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;パスコード解除&#34;&gt;パスコード解除&lt;/h3&gt;
+&lt;p&gt;iPadの場合はパスコードを解除しておきます。&lt;/p&gt;
+&lt;p&gt;設定→TouchIDとパスコード-&amp;gt;パスコードをオフにする。&lt;/p&gt;
+&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;https://kaminori.io/images/passcode-off.jpeg&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;画面サイズやフォントの設定&#34;&gt;画面サイズやフォントの設定&lt;/h3&gt;
+&lt;p&gt;アクセシビリティから以下を設定します&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;太文字　オン&lt;/li&gt;
+&lt;li&gt;大きめのテキスト　オン&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;高齢者向けアプリ&#34;&gt;高齢者向けアプリ&lt;/h1&gt;
+&lt;h2 id=&#34;操作習熟編&#34;&gt;操作習熟編&lt;/h2&gt;
+&lt;p&gt;ここまで来たらようやくアプリの導入です。まずは、タッチパネルに慣れてもらう必要があります。高齢者で慣れない方は、はじめタッチパネルをものすごい力で押すため、全くタッチパネルが動作しませんでした。そのため、まずは軽くタッチすることに慣れてもらう必要がありました。以下のアプリはこの軽いタッチ操作になれてもらうために有効でした。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;天気予報&#34;&gt;天気予報&lt;/h2&gt;
+&lt;p&gt;次は天気予報です。
+お年寄りにとって情報取得の最初は天気が一番です。ブランドとしてはNHKがいいでしょう。Yahoo天気などは、Yahoo自体がブランドとして認知されていないため、オススメしません。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

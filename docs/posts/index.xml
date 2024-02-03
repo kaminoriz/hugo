@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on kaminori</title>
+    <link>https://kaminori.io/posts/</link>
+    <description>Recent content in Posts on kaminori</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Copyright @kaminori10</copyright>
+    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kaminori.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>高齢の親・シニア・お年寄りにiPhone/iPadを使ってもらう方法</title>
+      <link>https://kaminori.io/posts/iphone4elders/</link>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaminori.io/posts/iphone4elders/</guid>
+      <description>
+        
+          &lt;p&gt;スマートフォンは今日の生活に欠かせないデバイスとなり、その役割は全世代に渡って広がっています。&lt;/p&gt;
+&lt;p&gt;それでも、特に80代以上の高齢者にとって（認知症初期の方を含む）、スマートフォンの取り扱いには一定の課題が存在します。&lt;/p&gt;
+&lt;p&gt;80代以上の高齢者の方々がスマートフォンを使いこなすための手順を詳しく説明します。&lt;/p&gt;
+&lt;p&gt;また、70代の方でスマホを使っていない方は、早めに（認知症になる前に！）使ってもらう必要があります。&lt;/p&gt;
+&lt;h2 id=&#34;スマートフォンの選択&#34;&gt;スマートフォンの選択&lt;/h2&gt;
+&lt;p&gt;おすすめの機種はiPhone（またはiPad）一択です。既に数年前のiPhoneをお持ちの方は、自分用に新機種を購入し、いまお使いの機種を高齢者にあげてしまいましょう。&lt;/p&gt;
+&lt;p&gt;できれば大画面のiPhoneを選んでください。高齢者にとっては、その操作性や視認性が重要で、必ずしも高スペックな機種が必要というわけではありません。&lt;/p&gt;
+&lt;h2 id=&#34;通信回線の準備&#34;&gt;通信回線の準備&lt;/h2&gt;
+&lt;p&gt;これはご家族や後見人が対応する必要があります。格安SIMをオンラインで契約しましょう。&lt;/p&gt;
+&lt;p&gt;名義は本人のもので契約することをお勧めします。私の見解では、通話はLINEアプリでも十分可能ですので、音声通話付きSIMは不要で、SMS付きを契約すればよいと考えます。&lt;/p&gt;
+&lt;h2 id=&#34;iphoneの設定&#34;&gt;iPhoneの設定&lt;/h2&gt;
+&lt;p&gt;基本的には全てご家族や後見人が設定する必要があります。重要なポイントを以下に列挙します。&lt;/p&gt;
+&lt;h3 id=&#34;apple-idの作成&#34;&gt;Apple IDの作成&lt;/h3&gt;
+&lt;p&gt;Apple IDのパスワードを設定します。日常的にはほとんど入力することはないので、安全のために複雑なパスワードを設定しても問題ありません。&lt;/p&gt;
+&lt;h3 id=&#34;ロック画面のpinコード設定&#34;&gt;ロック画面のPINコード設定&lt;/h3&gt;
+&lt;p&gt;認知症の方の場合、パスコード入力が大きな障害になり得ます。覚えやすい6桁の数字を設定しましょう。その方の認知能力を考慮に入れることが重要です。認知能力が高くない場合、セキュリティ上は理想的ではないですが、&amp;ldquo;123456&amp;quot;のような簡単な数字に設定せざるを得ません。&lt;/p&gt;
+&lt;p&gt;TouchIDやFaceIDなどの生体認証は理解が難しく、また、電源を再起動した後に必要なパスコード入力が最大の課題となります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;認知能力が衰えた高齢者にとって、iPhoneの利用はこの6桁のパスコード入力方法の習得から始まるのです。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;パスコード解除&#34;&gt;パスコード解除&lt;/h3&gt;
+&lt;p&gt;iPadの場合は、パスコードを解除することをおすすめします。&lt;/p&gt;
+&lt;p&gt;設定→TouchIDとパスコード→パスコードをオフにする。&lt;/p&gt;
+&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;https://kaminori.io/images/passcode-off.jpeg&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;画面と文字の大きさ設定&#34;&gt;画面と文字の大きさ設定&lt;/h3&gt;
+&lt;p&gt;視認性を向上させるために、以下の設定を行います。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;アクセシビリティから「太文字」をオン&lt;/li&gt;
+&lt;li&gt;「大きめのテキスト」をオン&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;高齢者向けアプリ&#34;&gt;高齢者向けアプリ&lt;/h1&gt;
+&lt;h2 id=&#34;操作習熟編&#34;&gt;操作習熟編&lt;/h2&gt;
+&lt;p&gt;ここまで来たらようやくアプリの導入です。まずは、タッチパネルに慣れてもらう必要があります。高齢者で慣れない方は、はじめタッチパネルをものすごい力で押すため、全くタッチパネルが動作しませんでした。そのため、まずは軽くタッチすることに慣れてもらう必要がありました。以下のアプリはこの軽いタッチ操作になれてもらうために有効でした。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;天気予報&#34;&gt;天気予報&lt;/h2&gt;
+&lt;p&gt;次は天気予報です。
+お年寄りにとって情報取得の最初は天気が一番です。ブランドとしてはNHKがいいでしょう。Yahoo天気などは、Yahoo自体がブランドとして認知されていないため、オススメしません。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>2023年1月1日</title>
+      <link>https://kaminori.io/posts/2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaminori.io/posts/2023/</guid>
+      <description>
+        
+          &lt;p&gt;あけましておめでとうございます。今年はこの諺を意識して取り組みたいと思います。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The future belongs to those who believe in the beauty of their dreams, Eleanor Roosevelt&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;未来はその夢の美しさを信じる人に訪れる。 エレノア・ルーズベルト　アメリカ合衆国第32代大統領&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.brainyquote.com/quotes/eleanor_roosevelt_100940&#34;&gt;https://www.brainyquote.com/quotes/eleanor_roosevelt_100940&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>マネー・ショート　華麗なる大逆転</title>
+      <link>https://kaminori.io/posts/bigshort/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaminori.io/posts/bigshort/</guid>
+      <description>
+        
+          &lt;p&gt;⭐️⭐️⭐️⭐️☆&lt;/p&gt;
+&lt;p&gt;Big Short. 2008年リーマンショックにおいて、住宅バブルの崩壊を予見し、逆張りした物語。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/video/detail/B01GSQGPDK/&#34;&gt;https://www.amazon.co.jp/gp/video/detail/B01GSQGPDK/&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/p3kIfKZh5JA?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>偉人・有名人の言葉</title>
+      <link>https://kaminori.io/posts/words/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaminori.io/posts/words/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;a href=&#34;https://www.brainyquote.com/&#34;&gt;https://www.brainyquote.com/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;残すことの大切さ&#34;&gt;残すことの大切さ&lt;/h2&gt;
+&lt;h3 id=&#34;一生を終えてのちに残るのはわれわれが集めたものではなくてわれわれが与えたものである--続氷点三浦綾子&#34;&gt;一生を終えてのちに残るのは、われわれが集めたものではなくて、われわれが与えたものである。- 続氷点、三浦綾子&lt;/h3&gt;
+&lt;h3 id=&#34;人は塵から生まれてきた生まれてきてから得たものに執着するないずれ人は塵に戻っていくのだから---タルムードの教え&#34;&gt;人は塵から生まれてきた。生まれてきてから得たものに執着するな。いずれ人は塵に戻っていくのだから - タルムードの教え&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;時間の大切さ&#34;&gt;時間の大切さ&lt;/h2&gt;
+&lt;h3 id=&#34;今日が一番若い日---永六輔&#34;&gt;今日が一番若い日 - 永六輔&lt;/h3&gt;
+&lt;h3 id=&#34;today-you-are-the-youngest-in-the-rest-of-your-life&#34;&gt;Today you are the youngest in the rest of your life.&lt;/h3&gt;
+&lt;h3 id=&#34;人生生きて３万日&#34;&gt;人生生きて３万日&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;行動の大切さ&#34;&gt;行動の大切さ&lt;/h2&gt;
+&lt;h3 id=&#34;life-is-like-riding-a-bicycle-to-keep-your-balance-you-must-keep-moving---albert-einstein&#34;&gt;Life is like riding a bicycle. To keep your balance you must keep moving. - Albert Einstein&lt;/h3&gt;
+&lt;h3 id=&#34;done-is-better-than-the-perfect&#34;&gt;Done is better than the perfect&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;多様性の大切さ&#34;&gt;多様性の大切さ&lt;/h2&gt;
+&lt;h3 id=&#34;大人になるということは曖昧さを受け入れる能力を持つということ--フロイト&#34;&gt;大人になるということは曖昧さを受け入れる能力を持つということ , フロイト&lt;/h3&gt;
+&lt;h2 id=&#34;ミニマリスト--minimalism&#34;&gt;ミニマリスト / Minimalism&lt;/h2&gt;
+&lt;h3 id=&#34;minimalism-is-not-a-lack-of-something-its-simply-the-perfect-amount-of-something--nicholas-burroughs&#34;&gt;Minimalism is not a lack of something. It’s simply the perfect amount of something. — Nicholas Burroughs&lt;/h3&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>2022年1月1日</title>
+      <link>https://kaminori.io/posts/2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaminori.io/posts/2022/</guid>
+      <description>
+        
+          &lt;p&gt;あけましておめでとうございます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Anyone who stops learning is old, whether at 20 or 80. Anyone who keeps learning stays young. The greatest thing in life is to keep your mind young. - Henry Ford&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;二十歳であろうが八十歳であろうが、学ぶことををやめた者は老人である。学び続ける者はいつまでも若い。人生で一番大切なことは、若い精神を持ち続けることだ。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ミリオンダラー・ベイビー</title>
+      <link>https://kaminori.io/posts/miliondollerbaby/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaminori.io/posts/miliondollerbaby/</guid>
+      <description>
+        
+          &lt;p&gt;⭐️⭐️⭐️⭐️☆&lt;/p&gt;
+&lt;p&gt;Million Dollar Baby.&lt;/p&gt;
+&lt;p&gt;監督	クリント・イーストウッド&lt;/p&gt;
+&lt;p&gt;貧困層からボクサーを目指した女性。
+不正なボクシングを得意とする王者との対戦の結果、全身不随となり、
+最後はトレーナーによる尊厳死というストーリーに深い思いが至る映画。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/video/detail/B00FND5F72/r&#34;&gt;https://www.amazon.co.jp/gp/video/detail/B00FND5F72/r&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%AA%E3%82%AA%E3%83%B3%E3%83%80%E3%83%A9%E3%83%BC%E3%83%BB%E3%83%99%E3%82%A4%E3%83%93%E3%83%BC&#34;&gt;ミリオンダラー・ベイビー&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/wtdzuhxaEck?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Less is more &lt;=&gt; </title>
+      <link>https://kaminori.io/posts/minimalist/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaminori.io/posts/minimalist/</guid>
+      <description>
+        
+          &lt;p&gt;ミニマルであること・物が少ないことは時間の有効活用や自由に繋がります。&lt;/p&gt;
+&lt;h1 id=&#34;人生は積み減らし---岡本太郎&#34;&gt;人生は積み減らし - 岡本太郎&lt;/h1&gt;
+&lt;p&gt;人生は積み重ねだと誰でも思っているようだ。
+僕は逆に積み減らすべきだと思う。
+財産も知識も蓄えれば蓄えるほど
+かえって人間は自在さを失ってしまう。- 岡本太郎&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;片付けを理解する動画&#34;&gt;片付けを理解する動画&lt;/h1&gt;
+&lt;h2 id=&#34;ものは少なく幸せはたくさんless-stuff-more-happiness&#34;&gt;ものは少なく、幸せはたくさん　Less Stuff, More Happiness&lt;/h2&gt;
+&lt;p&gt;グラハム・ヒル Less Stuff, more happiness｜ものは少なく、幸せは多めに&lt;/p&gt;
+&lt;p&gt;ものが増えることは、より多くのストレスに繋がります。この逆説として、ものは少なく、より幸福に&lt;/p&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/L8YJtvHGeUU?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;nakata-university-be-happier-with-less-stuff&#34;&gt;Nakata University, Be Happier with Less Stuff&lt;/h2&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/1jTSxlw9ajE?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;organise-the-world---marie-kondo&#34;&gt;Organise the World - Marie Kondo&lt;/h2&gt;
+&lt;p&gt;近藤麻理恵さんによるトーク。&lt;/p&gt;
+
+&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ft1KKV57yWE?controls=1&amp;rel=0&#34;  style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;border:0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>2021年1月1日</title>
+      <link>https://kaminori.io/posts/2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaminori.io/posts/2021/</guid>
+      <description>
+        
+          &lt;p&gt;あけましておめでとうございます。今年はこの諺を意識して取り組みたいと思います。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;You are never too old to set another goal or to dream a new dream. - C.S. Lewis&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新たな目標を設定したり夢を見るのに歳を取り過ぎているということはない&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
